@@ -2,7 +2,6 @@
 <h3 align="center">A passionate Self-taught Front-end Developer, I build modern-day UI components to improve application performance</h3>
 
 - 🌱 I’m currently learning **MERN STACK**
-- 📝 I regularly Post on [instagram](https://www.instagram.com/sudhir_sharma87/)
 
 - 💬 Ask me about **Next.js, React.js, JavaScript**
 

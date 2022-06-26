@@ -1,8 +1,7 @@
-### Hi there Sudhir here 👋
+<h1 align="center">Hi 👋, I'm Sudhir Sharma</h1>
+<h3 align="center">A passionate Self-taught Front-end Developer, I build modern-day UI components to improve application performance</h3>
 
 
-<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
-<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -20,7 +19,6 @@
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=webdevvikramchoudhary&label=Profile%20views&color=0e75b6&style=flat" alt="webdevvikramchoudhary" /> </p> -->
 
 - 🌱 I’m currently learning **MERN STACK**
-- 
 - 📝 I regularly Post on [instagram](https://www.instagram.com/sudhir_sharma87/)
 
 - 💬 Ask me about **Next.js, React.js, JavaScript**
@@ -55,6 +53,8 @@
 
 <h3 align="left">Support:</h3>
 
+<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
+<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=webdevvikramchoudhary&theme=tokyonight)]

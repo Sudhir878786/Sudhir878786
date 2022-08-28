@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Sudhir Sharma</h1>
+<h1 align="center">Hi 👋, I'm Sudhir Sharma</h1> 
 <h3 align="center">A passionate Self-taught Front-end Developer, I build modern-day UI components to improve application performance</h3>
 
 - 🌱 I’m currently learning **MERN STACK**
@@ -6,6 +6,7 @@
 - 💬 Ask me about **Next.js, React.js, JavaScript**
 
 - 📫 Reach me on **sudhirsharma34567@gmail.com**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=0e75b6&style=flat" alt="sceary-expert" /> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -16,7 +17,7 @@
 
 </p><h3 align="left">Languages and Tools:</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Sudhir878786" alt="sceary-expert" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Sudhir878786" alt="Sudhir878786" /></a> </p>
 
 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -50,8 +51,11 @@
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
+<b>&#128200; Competitive Programming</b>
+<p float="left">
+<img height="273em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
+</p>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=webdevvikramchoudhary&theme=tokyonight)]
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=webdevvikramchoudhary&theme=tokyonight)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=0e75b6&style=flat" alt="sceary-expert" /> </p>
 

@@ -14,10 +14,11 @@
 <a href="https://www.linkedin.com/in/sudhir-sharma-4858ab21a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thevikramchoudhary" height="30" width="40" /></a>
 <!-- <a href="https://codepen.io/ninja_webtech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="ninja_webtech" height="30" width="40" /></a> -->
 <a href="https://twitter.com/SudhirS33090712" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ninja_webtech" height="30" width="40" /></a>
+ 
+[![trophy](https://github-profile-trophy.vercel.app/?username=Sudhir878786&theme=onedark)](https://github.com/Sudhir878786/github-profile-trophy)
 
 </p><h3 align="left">Languages and Tools:</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Sudhir878786" alt="Sudhir878786" /></a> </p>
 
 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -51,11 +52,11 @@
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=webdevvikramchoudhary&theme=tokyonight)
+
 <b>&#128200; Competitive Programming</b>
 <p float="left">
 <img height="273em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
 </p>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=webdevvikramchoudhary&theme=tokyonight)
 
 

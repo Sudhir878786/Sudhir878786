@@ -52,11 +52,13 @@
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786)
+<img align="right" height="250em" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786" />
 
 <b>&#128200; Competitive Programming</b>
 <p float="left">
 <img height="273em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
 </p>
+
+<img width="99%" src="https://activity-graph.herokuapp.com/graph?username=Sudhir878786&bg_color=FFFFFF&color=000000&line=66806A&point=F8A427&hide_border=true&area=true&count_private=true"/>
 
 

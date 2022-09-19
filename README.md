@@ -52,7 +52,7 @@
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
 <img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
 
-<img align="right" height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786" />
+<img align="right" height="1700em" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786" />
 
 <b>&#128200; Competitive Programming</b>
 <p float="left">

@@ -56,7 +56,7 @@
 
 <b>&#128200; Competitive Programming</b>
 <p float="left">
-<img height="250em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
+<img height="270em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
 </p>
 
 <img width="99%" src="https://activity-graph.herokuapp.com/graph?username=Sudhir878786&bg_color=FFFFFF&color=000000&line=66806A&point=F8A427&hide_border=true&area=true&count_private=true"/>

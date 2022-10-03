@@ -1,42 +1,37 @@
-<h1 align="center">Hi 👋, I'm Sudhir Sharma</h1> 
-<h3 align="center">A passionate Self-taught Front-end Developer, I build modern-day UI components to improve application performance</h3>
 
-- 🌱 I’m currently learning **MERN STACK**
+![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)
+<h1 align="center" >Hi, I'm <a href="https://www.linkedin.com/in/sudhir_sharma87/" target="_blank">Sudhir Sharma </a><img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px" height="30px"></h1>
+<img width="40%" align="right"   src="https://github.com/SauravMukherjee44/SauravMukherjee44/blob/03193437b82d681c9caa24657c4ebec746dc628f/workbench.svg" >
 
-- 💬 Ask me about **Next.js, React.js, JavaScript**
+A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> from Indian Institute of Technology Bhailai(IIT Bhilai), Currently in my 3rd-Year of B.Tech. As of now, I am focused on <b>Competitive Programming, Open Source and Full Stack App Development </b> but still, wish to explore many fields. ⚡
 
-- 📫 Reach me on **sudhirsharma34567@gmail.com**
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=0e75b6&style=flat" alt="sceary-expert" /> </p>
+<h3 align="center">Competitive Programmer | Flutter & Python Developer | Technical Content Writer </h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/sudhir_sharma87" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ninja_webtech" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/sudhir-sharma-4858ab21a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thevikramchoudhary" height="30" width="40" /></a>
-<!-- <a href="https://codepen.io/ninja_webtech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="ninja_webtech" height="30" width="40" /></a> -->
-<a href="https://twitter.com/SudhirS33090712" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ninja_webtech" height="30" width="40" /></a>
+<h3><p align="center"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=6805D3&style=flat" alt="Sudhir878786" /> </p></h3>
+   <div align="center">
+
+<h1>Technical Skills 🛠</h1>
+   
+Updating Soon.....
+
+<p align="center"> 
+<img alt="C" src="https://img.shields.io/badge/c-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white" />
+<img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white" />
+ <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/>
+<img alt="Postman" src="https://img.shields.io/badge/postman-icon.svg?&style=for-the-badge&logo=Postman&ogoColor=white" />
  
-[![trophy](https://github-profile-trophy.vercel.app/?username=Sudhir878786&theme=onedark)](https://github.com/Sudhir878786/github-profile-trophy)
-
-</p><h3 align="left">Languages and Tools:</h3>
-
-
-
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
-
-<p align="left">
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-</p>
+ <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+ 
+ 
+ <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+ 
+ <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+ <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+ 
+ <img alt="VS Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+ 
+ </p>
+ </p><h3 align="left">Languages and Tools:</h3>
  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a>
@@ -47,18 +42,48 @@
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
 
-<h3 align="left">Support:</h3>
 
-<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=radical" />
-<img  align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudhir878786&layout=compact" />
+  
+I believe in implementing the knowledge which I have. Projects play a major role in showcasing your skills. They help in predicting skills of a person. So let's have a look at my project section.
 
-<img align="right" height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786" />
 
+
+<h1 align="center">Let's Get Connected</h1> 
+
+Follow if you liked my respositories and I'll make sure to visit yours :)
+
+
+<div align="center">
+
+<a  href="https://www.linkedin.com/in/sudhir_sharma87/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://twitter.com/SudhirS33090712" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
+<a href="mailto:sudhirsharma@iitbhilai.ac.in"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+
+</div>
+
+<table>
+  <tr>
+    <td><img src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=dark&locale=en" alt="Sudhir Sharma" /></td>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhir878786&show_icons=true&theme=dark&locale=en&layout=compact" alt="Sudhir Sharma" /></td>
+  </tr>
+</table>
 <b>&#128200; Competitive Programming</b>
 <p float="left">
 <img height="280em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
 </p>
 
-<img width="99%" src="https://activity-graph.herokuapp.com/graph?username=Sudhir878786&bg_color=FFFFFF&color=000000&line=66806A&point=F8A427&hide_border=true&area=true&count_private=true"/>
+<div align="center">
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786&theme=dark" alt="Sudhir878786" /></p>
+  </div>
+  
+ [![trophy](https://github-profile-trophy.vercel.app/?username=Sudhir878786&theme=onedark)](https://github.com/Sudhir878786/github-profile-trophy)
+
+
+ [![Sudhir's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=Sudhir878786&theme=xcode)](https://git.io/Sudhir878786)
+
+
+
+ 
+
 
 

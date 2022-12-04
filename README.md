@@ -5,7 +5,7 @@
 
 A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> from Indian Institute of Technology Bhailai(IIT Bhilai), Currently in my 3rd-Year of B.Tech. As of now, I am focused on <b>Competitive Programming, Open Source and Full Stack App Development </b> but still, wish to explore many fields. ⚡
 
-<h3 align="center">Competitive Programmer | Flutter & Python Developer | Technical Content Writer </h3>
+<h3 align="center">Competitive Programmer | Full Stack Developer | Google Cloud </h3>
 
 <h3><p align="center"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=6805D3&style=flat" alt="Sudhir878786" /> </p></h3>
    <div align="center">

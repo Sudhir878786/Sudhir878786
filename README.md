@@ -81,7 +81,7 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
                                                                                                                       
 [![@sudhir878786's Holopin board](https://holopin.io/api/user/board?user=sudhir878786)](https://holopin.io/@sudhir878786)
 
- [![Sudhir's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=Sudhir878786&theme=xcode)](https://git.io/Sudhir878786)
+[![Sudhir's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Sudhir878786&bg_color=000000&color=f31212&line=2208e7&point=00ff33&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 

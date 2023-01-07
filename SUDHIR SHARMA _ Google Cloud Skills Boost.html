@@ -1,0 +1,892 @@
+
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"caff0d62ed","applicationID":"587285446","transactionName":"IQ1XRUEOVV1dFxlHRgAOUFJsEUteXgxaUkBNEkxTXwhabkgXWVFaDgdKHkAJVkY=","queueTime":0,"applicationTime":566,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"caff0d62ed",applicationID:"587285446"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<title>SUDHIR SHARMA | Google Cloud Skills Boost</title>
+<script>
+//<![CDATA[
+window.gon={};gon.current_user={"firstname":"SUDHIR","lastname":"SHARMA","fullname":"SUDHIR SHARMA","company":"Login with Google","email":"sudhirsharma@iitbhilai.ac.in","origin":"google-run, direct","subscriptions":0,"id":"bbd06e0a29581ff73dafe84a5d69436a","qlCreatedAt":"2022-01-19 06:15:48 UTC","optIn":true,"current_organization_role":null};gon.deployment="google-run";
+//]]>
+</script>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-5XSKHDX");
+</script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-2X30ZRBDSG" async="async"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', "G-2X30ZRBDSG", {
+    user_id: "6486811"
+  });
+</script>
+<script>
+  const properties = JSON.parse(atob('eyJsb2NhbGUiOiJlbiIsInVzZXJfcm9sZXMiOiJzdHVkZW50IiwiYWN0aXZlX2ZlYXR1cmVzIjpbImxlYXJuaW5nX2NlbnRlciIsImNoYXRfb2ZmX2Zvcl9zaWduZWRfb3V0X3VzZXJzIiwicHJvZ3JhbXMiLCJlbmZvcmNlX2NvZGVidWlsZF92ZXJkaWN0cyIsInNob3dfYW5udWFsX3B1cmNoYXNlX25vdyIsInByb2dyYW1fZ3JvdXBzIiwiY291cnNlX3VwZ3JhZGUiLCJjYW5vbmljYWxfZG9tYWluX3JlZGlyZWN0IiwidXNlX3RlYWN1cHMiLCJhbGV4YW5kcmlhX3Nob3dfYnVuZGxlX2Vycm9ycyIsInVzZWRfaW4iLCJvYXV0aF9yaXNjX3NodXRvZmYiXSwiYWN0aXZlX2dyb3VwcyI6WyJub25fc3VhZG1pbnMiLCJzdHVkZW50cyIsIm5vbl9vcmdhbml6YXRpb24iLCJub25fcHJvZ3JhbSJdfQ=='));
+  gtag('set', 'user_properties', properties);
+</script>
+<script src="https://cdn.qwiklabs.com/assets/hallofmirrors/polyfills/webcomponents-loader-8583b47b01e40e6ea7bf1ad443a20b7e79bbdd5eafac009806a228c91a97282c.js"></script>
+<script src="https://cdn.qwiklabs.com/assets/vendor-a84bd63ebad8cbea6bda06aeebb2d8207455f1b1d832ebfc452726e08245a4f1.js"></script>
+<script src="https://cdn.qwiklabs.com/assets/application-94ef4268d80c182a7c82af33b9ba5c586d6138bb468119a5112f0b5dc0e1b3d4.js"></script>
+<script src="https://cdn.qwiklabs.com/assets/hallofmirrors/hallofmirrors-e4222e4def93639d1aed075375760e9e8b230de7d3252e339d656c7597c3d8c7.js"></script>
+<!--[if lt IE 9]>
+<script src='http://html5shim.googlecode.com/svn/trunk/html5.js' type='text/javascript'></script>
+<![endif]-->
+<!--[endif]>  <![endif]-->
+<script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=511e4158-0aec-4e3c-b2e6-4daa1769f51e'></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="v5RRS51jX66tXgFWt2v3hVH/SieSz0nQ8rj2JlzwApXHB+U66xez/DXHN7Lt3JzKdOt2HB9qrMScdPK83xF9Ew==" />
+<meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport'>
+<meta content='1rRsY0INj8RvwB5EF5pwdxt2A2P9aDgAlsICaJ0d5w0' name='google-site-verification'>
+<meta content='#3681E4' property='msapplication-TileColor'>
+<meta content='/favicon-144.png' property='msapplication-TileImage'>
+<meta content='[{&quot;id&quot;:&quot;recaptcha_experiment&quot;,&quot;optimize_id&quot;:&quot;dpViOcLkT3qS4TvL2mRojA&quot;,&quot;title&quot;:&quot;No Recaptcha shown for trusted users&quot;,&quot;variant_index&quot;:1,&quot;variant&quot;:&quot;no_recaptcha&quot;}]' name='active-experiments'>
+<meta content='{&quot;userId&quot;:6486811,&quot;experimentIds&quot;:[&quot;learning_center&quot;,&quot;chat_off_for_signed_out_users&quot;,&quot;programs&quot;,&quot;enforce_codebuild_verdicts&quot;,&quot;show_annual_purchase_now&quot;,&quot;program_groups&quot;,&quot;course_upgrade&quot;,&quot;canonical_domain_redirect&quot;,&quot;use_teacups&quot;,&quot;alexandria_show_bundle_errors&quot;,&quot;used_in&quot;,&quot;oauth_risc_shutoff&quot;]}' name='help-api-product-data'>
+<meta content='{&quot;groupIds&quot;:[&quot;non_suadmins&quot;,&quot;students&quot;,&quot;non_organization&quot;,&quot;non_program&quot;]}' name='help-api-custom-data'>
+<meta content='Qwiklabs provides real Google Cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.' name='description'>
+<meta content='Qwiklabs' name='author'>
+<meta content='SUDHIR SHARMA | Google Cloud Skills Boost' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='/favicon-144.png' property='og:image'>
+<meta content='Qwiklabs' property='og:site_name'>
+<meta content='Qwiklabs provides real Google Cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.' property='og:description'>
+<meta content='/qwiklabs_logo_900x887.png' property='og:logo' size='900x887'>
+<meta content='/qwiklabs_logo_994x187.png' property='og:logo' size='994x187'>
+
+
+<meta property="og:url" content="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9" /><link href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9" rel="canonical" />
+<link color='#3681E4' href='/favicon-svg.svg' rel='mask-icon'>
+<link href='/favicon-180.png' rel='apple-touch-icon-precomposed'>
+<link href='https://cdn.qwiklabs.com/X46FrQX4iLxHW5MxL8jICvgZM0evMEKscCeQO%2BazGdo%3D' rel='shortcut icon' type='image/x-icon'>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400|Roboto+Mono:400,700|Roboto:300,400,500,700|Google+Sans:300,400,500,700|Google+Sans+Display:400|Material+Icons|Google+Material+Icons" media="screen" />
+
+<link rel="stylesheet" href="https://cdn.qwiklabs.com/assets/application-fac6dc9dddb6d67d8af91257d2b668136f2973be5628cd3e2e761e35a4df178e.css" media="all" />
+
+
+<style>
+  :root {
+    --primary-text-on-surface-color: #1a73e8;
+    --primary-text-on-surface-color-dark: #1568d6;
+    --primary-text-on-surface-color-darker: #135ec1;
+    --primary-text-on-surface-color-darkest: #1154ac;
+    --primary-surface-color: #1a73e8;
+    --primary-surface-color-rgb: 26,115,232;
+    --primary-surface-color-light: #d1e3fa;
+    --primary-surface-color-lightest: #e8f1fd;
+    --text-on-primary-color: #ffffff;
+    --accent-text-on-surface-color: #f29900;
+    --accent-surface-color: #f9ab00;
+    --accent-surface-color-rgb: 249,171,0;
+    --accent-surface-color-light: #ffefcc;
+    --text-on-accent-color: #202124;
+  }
+</style>
+
+<style>
+  :root {
+    --navbar-height: 112px;
+  }
+</style>
+
+
+
+</head>
+<body class=''>
+<ql-drawer-container class='body-container'>
+<ql-drawer id='app-nav' mode='over' slot='drawer' width='288'>
+<div class='nav-panel__logo'>
+<div class="custom-logo"><img alt="Google Cloud Skills Boost" height="24" aria-label="Google Cloud Skills Boost" src="https://cdn.qwiklabs.com/PGyhmgS3zZncIEGywnx5UXsKwepRRFQ9BhAg%2FWHNrlQ%3D" /></div>
+</div>
+<nav class='ql-sidenav'>
+<ql-sidenav-item href='/' icon='home' label='Paths'></ql-sidenav-item>
+
+<ql-sidenav-item href='/catalog' icon='school' label='Explore'></ql-sidenav-item>
+
+<ql-sidenav-item href='/profile' icon='event_note' label='Profile'></ql-sidenav-item>
+
+</nav>
+
+</ql-drawer>
+<ql-drawer-content class='body-content' slot='drawer-content'>
+<ql-toolbar class='sticky app-toolbar' jumpEnabled role='banner'>
+<div class='toolbar-navigation' slot='navigation'>
+<ql-toggle-button for="app-nav" icon="menu" label="Toggle navigation drawer" tip="Menu" class=""></ql-toggle-button>
+</div>
+<div class='toolbar-title ql-headline-6' slot='title'><a class="custom-logo" aria-label="Google Cloud Skills Boost" href="/"><div class="custom-logo"><img alt="Google Cloud Skills Boost" height="24" aria-label="Google Cloud Skills Boost" src="https://cdn.qwiklabs.com/PGyhmgS3zZncIEGywnx5UXsKwepRRFQ9BhAg%2FWHNrlQ%3D" /></div></a></div>
+<div class='toolbar-actions' slot='action'><ql-icon-button class='mobile-hide' icon='help_outline' id='help-menu-button' label='Open help menu' tip='Help'></ql-icon-button>
+<ql-menu for='help-menu-button' id='help-menu'>
+<ql-menu-item data-analytics-action='opened_help' data-analytics-label='profile' label='Help Center' onclick='hallofmirrors.helpService.startHelp({&quot;productData&quot;:{&quot;userId&quot;:6486811},&quot;context&quot;:&quot;profile&quot;})'></ql-menu-item>
+<ql-menu-item href='https://support.google.com/qwiklabs/contact/contact_us' label='Email support' target='_blank'></ql-menu-item>
+<ql-menu-item label='Chat support' onClick='ql.chat.open()'></ql-menu-item>
+</ql-menu>
+
+<ql-icon-button id='my_account' label='My account' tip='My account'>
+<ql-avatar src='https://lh3.googleusercontent.com/a/AEdFTp4D3qtyZZB8r_9P0f9xnR20oCrA60Z1uzamQWGZdQ=s320-c'></ql-avatar>
+</ql-icon-button>
+<ql-menu for='my_account' id='my_account_menu' style='max-height: 640px'>
+<div class='my-account-menu'>
+<ql-avatar class='l-mtl l-mbl' size='120' src='https://lh3.googleusercontent.com/a/AEdFTp4D3qtyZZB8r_9P0f9xnR20oCrA60Z1uzamQWGZdQ=s320-c'></ql-avatar>
+<div class='my-account-menu__user-info l-mbl'>
+<h4 class='ql-subhead-1'>SUDHIR SHARMA</h4>
+<p class='ql-body-2 text--light'>sudhirsharma@iitbhilai.ac.in</p>
+<p class='ql-body-2 text--light'>
+</p>
+<a class="text--green ql-subhead-2" href="/my_account/payments"><ql-chip positive>
+0 Credits
+</ql-chip>
+</a></div>
+<div class='buttons l-mbl'>
+<a class="button button--hairline l-mrm" id="profile" href="/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9">Public Profile</a>
+<a class="button button--hairline" id="settings" href="/my_account/profile">Settings</a>
+</div>
+<hr>
+<ql-button data-analytics-action='clicked_sign_out' href='/users/sign_out' method='delete'>
+Sign Out
+</ql-button>
+<div class='privacy l-mtl'>
+<a target="_blank" class="ql-caption text--light" href="/privacy_policy">Privacy</a>
+<span class='ql-caption text--light l-mls l-mrs'>&middot;</span>
+<a class="ql-caption text--light" href="/terms_of_service">Terms</a>
+</div>
+</div>
+</ql-menu>
+
+</div>
+</ql-toolbar>
+<main id='jump-content'>
+
+<div class='text--center'>
+<ql-avatar class='l-mbl' size='160' src='https://lh3.googleusercontent.com/a/AEdFTp4D3qtyZZB8r_9P0f9xnR20oCrA60Z1uzamQWGZdQ=s320-c'></ql-avatar>
+<h1 class='ql-headline-1'>
+SUDHIR SHARMA
+</h1>
+<p class='ql-body-1 l-mbl'>
+Member since 2022
+</p>
+<p class='ql-body-1 l-mbl'>
+Your profile is public and accessible at <br/> https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9
+</p>
+<p class='ql-body-2'>
+If you earn at least one badge on Google Cloud Skills Boost, you will get a badge awarded on your <a target="_blank" href="https://developers.google.com/profile/u/me">Google Developers profile</a>.
+<ql-button href='/profile/stop_syncing_devsite_badges' method='post' text>
+Click here to turn this off.
+</ql-button>
+</p>
+<div class='profile-badges'>
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2061242"><img alt="Badge for Google Cloud&#39;s Operations Suite" src="https://cdn.qwiklabs.com/dm0Hz9Vg2Nvvrsq3y1aCFz4xP1FoI6srK%2FqVJDqfdHo%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Google Cloud&#39;s Operations Suite
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 23, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-0' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_35' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_35'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Google Cloud&#39;s Operations Suite' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Google Cloud&#39;s Operations Suite&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2061242%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2061242' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Google Cloud&#39;s Operations Suite' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2061242%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Google Cloud&#39;s Operations Suite' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2061242%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Google Cloud&#39;s Operations Suite' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2061242%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2061242'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2055668"><img alt="Badge for Deploy to Kubernetes in Google Cloud" src="https://cdn.qwiklabs.com/SFfmObf8ridNvpy2%2Bgn%2FazAh3SR4tXFTBhdKpT1Ocrc%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Deploy to Kubernetes in Google Cloud
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 23, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-1' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_763' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_763'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Deploy to Kubernetes in Google Cloud' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Deploy to Kubernetes in Google Cloud&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055668%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2055668' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Deploy to Kubernetes in Google Cloud' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055668%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Deploy to Kubernetes in Google Cloud' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055668%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Deploy to Kubernetes in Google Cloud' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055668%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2055668'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2055141"><img alt="Badge for Build and Secure Networks in Google Cloud" src="https://cdn.qwiklabs.com/fUkNC8Ujw5C3fdqhXntXppEGL%2BupKOgvE42GWf4Oo68%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Build and Secure Networks in Google Cloud
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 23, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-2' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_807' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_807'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Build and Secure Networks in Google Cloud' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Build and Secure Networks in Google Cloud&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055141%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2055141' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Build and Secure Networks in Google Cloud' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055141%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Build and Secure Networks in Google Cloud' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055141%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Build and Secure Networks in Google Cloud' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2055141%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2055141'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2054990"><img alt="Badge for Google Cloud Solutions I: Scaling Your Infrastructure" src="https://cdn.qwiklabs.com/ZJMZcere2fWYjqyr7gATsfmo9p7t2Hx%2FGg0CCY3gLLU%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Google Cloud Solutions I: Scaling Your Infrastructure
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 23, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-3' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_36' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_36'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Google Cloud Solutions I: Scaling Your Infrastructure' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Google Cloud Solutions I: Scaling Your Infrastructure&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2054990%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2054990' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Google Cloud Solutions I: Scaling Your Infrastructure' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2054990%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Google Cloud Solutions I: Scaling Your Infrastructure' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2054990%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Google Cloud Solutions I: Scaling Your Infrastructure' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2054990%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2054990'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2051859"><img alt="Badge for Cloud Architecture" src="https://cdn.qwiklabs.com/I1ZuP3bdHif3qBweIZrUOJGvCOLDUARPSxhcuWLy3Lk%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Cloud Architecture
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 22, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-4' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_24' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_24'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Cloud Architecture' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Cloud Architecture&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2051859%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2051859' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Cloud Architecture' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2051859%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Cloud Architecture' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2051859%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Cloud Architecture' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2051859%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2051859'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2046110"><img alt="Badge for Understanding Your Google Cloud Costs" src="https://cdn.qwiklabs.com/EJEdJpckN7yIes%2F901P7aFXcZplqYMxcbDIuK1QqddQ%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Understanding Your Google Cloud Costs
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 21, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-5' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_241' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_241'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Understanding Your Google Cloud Costs' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Understanding Your Google Cloud Costs&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2046110%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2046110' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Understanding Your Google Cloud Costs' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2046110%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Understanding Your Google Cloud Costs' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2046110%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Understanding Your Google Cloud Costs' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2046110%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2046110'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2038799"><img alt="Badge for DevOps Essentials" src="https://cdn.qwiklabs.com/0kN88wm9Jn%2FTs6GNut2s2RhY%2F2vHs3jKLbL6MxZawqA%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+DevOps Essentials
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 20, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-6' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_283' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_283'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='DevOps Essentials' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=DevOps Essentials&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038799%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2038799' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='DevOps Essentials' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038799%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='DevOps Essentials' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038799%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='DevOps Essentials' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038799%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2038799'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2038364"><img alt="Badge for Set Up and Configure a Cloud Environment in Google Cloud" src="https://cdn.qwiklabs.com/o%2FN83w0HEfVQYE3IF6A8C%2FBHph2rF%2FfkHlYZ51DWOr4%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Set Up and Configure a Cloud Environment in Google Cloud
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 20, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-7' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_766' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_766'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Set Up and Configure a Cloud Environment in Google Cloud' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Set Up and Configure a Cloud Environment in Google Cloud&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038364%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2038364' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Set Up and Configure a Cloud Environment in Google Cloud' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038364%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Set Up and Configure a Cloud Environment in Google Cloud' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038364%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Set Up and Configure a Cloud Environment in Google Cloud' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2038364%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2038364'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2037904"><img alt="Badge for Cloud Engineering" src="https://cdn.qwiklabs.com/kuBgucU%2FwbX9lkaNZfxQERQoa411Wr1xJ88uoYbpgT0%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Cloud Engineering
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 20, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-8' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_120' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_120'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Cloud Engineering' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Cloud Engineering&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2037904%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2037904' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Cloud Engineering' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2037904%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Cloud Engineering' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2037904%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Cloud Engineering' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2037904%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2037904'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2032310"><img alt="Badge for Kubernetes in Google Cloud" src="https://cdn.qwiklabs.com/3cUZzotUhC3sWESWmiP9mofbB%2BcZrrX5NiKJEGZBS%2B4%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Kubernetes in Google Cloud
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 20, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-9' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_29' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_29'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Kubernetes in Google Cloud' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Kubernetes in Google Cloud&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2032310%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2032310' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Kubernetes in Google Cloud' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2032310%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Kubernetes in Google Cloud' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2032310%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Kubernetes in Google Cloud' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2032310%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2032310'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2024954"><img alt="Badge for Networking Fundamentals in Google Cloud " src="https://cdn.qwiklabs.com/07Ua8YRAr%2F1RypstXT%2FraoI72q%2B0IDzPoSsdnBfBmzY%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Networking Fundamentals in Google Cloud 
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 19, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-10' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_31' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_31'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Networking Fundamentals in Google Cloud ' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Networking Fundamentals in Google Cloud &amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2024954%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2024954' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Networking Fundamentals in Google Cloud ' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2024954%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Networking Fundamentals in Google Cloud ' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2024954%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Networking Fundamentals in Google Cloud ' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2024954%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2024954'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2019342"><img alt="Badge for Perform Foundational Infrastructure Tasks in Google Cloud" src="https://cdn.qwiklabs.com/SOUHCWvev6HmfC5QztXJd%2BCkSK8%2B3WGWg%2BF%2Fww%2FfqXA%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Perform Foundational Infrastructure Tasks in Google Cloud
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 18, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-11' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_765' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_765'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Perform Foundational Infrastructure Tasks in Google Cloud' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Perform Foundational Infrastructure Tasks in Google Cloud&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019342%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2019342' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Perform Foundational Infrastructure Tasks in Google Cloud' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019342%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Perform Foundational Infrastructure Tasks in Google Cloud' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019342%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Perform Foundational Infrastructure Tasks in Google Cloud' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019342%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2019342'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2019102"><img alt="Badge for Baseline: Infrastructure" src="https://cdn.qwiklabs.com/Eg%2FSbOy66StYJSJgDWYLrHAMVb%2F28ZfyndLzHYtQPeA%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Baseline: Infrastructure
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 18, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-12' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_33' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_33'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Baseline: Infrastructure' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Baseline: Infrastructure&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019102%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2019102' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Baseline: Infrastructure' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019102%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Baseline: Infrastructure' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019102%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Baseline: Infrastructure' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2019102%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2019102'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2017206"><img alt="Badge for Create and Manage Cloud Resources" src="https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Create and Manage Cloud Resources
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 18, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-13' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_767' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_767'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Create and Manage Cloud Resources' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Create and Manage Cloud Resources&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2017206%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2017206' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Create and Manage Cloud Resources' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2017206%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Create and Manage Cloud Resources' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2017206%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Create and Manage Cloud Resources' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2017206%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2017206'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2016911"><img alt="Badge for Google Cloud Essentials" src="https://cdn.qwiklabs.com/xRejIPM4k6VgI8%2B%2B2Nz5bFHFx8PwK0nn9oQofkJOsS4%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Google Cloud Essentials
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned May 18, 2022 EDT
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-14' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_23' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_23'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Google Cloud Essentials' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Google Cloud Essentials&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=5&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2016911%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=2016911' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Google Cloud Essentials' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2016911%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Google Cloud Essentials' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2016911%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Google Cloud Essentials' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F2016911%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/2016911'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/1721283"><img alt="Badge for DevOps: A beautiful relationship" src="https://cdn.qwiklabs.com/NpgWyvaFuBhrAYoB1NKJ03L%2BQZs27GLzQxzTgAy%2FAMM%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+DevOps: A beautiful relationship
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned Feb 14, 2022 EST
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-15' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_5369' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_5369'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='DevOps: A beautiful relationship' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=DevOps: A beautiful relationship&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=2&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1721283%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=1721283' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='DevOps: A beautiful relationship' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1721283%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='DevOps: A beautiful relationship' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1721283%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='DevOps: A beautiful relationship' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1721283%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/1721283'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+<div class='profile-badge'>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/1689367"><img alt="Badge for Learn to Earn Cloud Security Challenge: Level 2" src="https://cdn.qwiklabs.com/X5Ngy9b5EeSYwJ4BajDQmvS2LB3KmqU07Krx6K2jtrg%3D" />
+</a><span class='ql-subhead-1 l-mts'>
+Learn to Earn Cloud Security Challenge: Level 2
+</span>
+<span class='ql-body-2 l-mbs'>
+Earned Jan 27, 2022 EST
+</span>
+<ql-button hairline label='Learn more' modal='public-profile-award-modal-16' tip='Learn more'></ql-button>
+<ql-icon-button icon='share' id='share_3460' label='Share on social media' tip='Share'></ql-icon-button>
+<ql-menu for='share_3460'>
+<ql-menu-item data-analytics-action='Shared to LinkedIn Profile.' data-analytics-category='Badge' data-analytics-label='Learn to Earn Cloud Security Challenge: Level 2' href='https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Learn to Earn Cloud Security Challenge: Level 2&amp;organizationName=Google Cloud Skills Boost&amp;issueYear=2022&amp;issueMonth=1&amp;expirationYear=&amp;expirationMonth=&amp;certUrl=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1689367%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share&amp;certId=1689367' icon='post_linkedin' label='Share on LinkedIn Profile' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Profile</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to LinkedIn Feed.' data-analytics-category='Badge' data-analytics-label='Learn to Earn Cloud Security Challenge: Level 2' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1689367%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin%26utm_campaign%3Dql-social-share' icon='post_linkedin' label='Share on LinkedIn Feed' role='link' target='_blank'>
+<span class='label'>Share on LinkedIn Feed</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Twitter.' data-analytics-category='Badge' data-analytics-label='Learn to Earn Cloud Security Challenge: Level 2' href='https://twitter.com/intent/tweet?text=Excited%20to%20share%20the%20latest%20%23GoogleCloudBadge%20I%27ve%20earned%20on%20%23GoogleCloudSkillsBoost&amp;url=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1689367%3Futm_medium%3Dsocial%26utm_source%3Dtwitter%26utm_campaign%3Dql-social-share&amp;hashtags=' icon='post_twitter' label='Twitter' role='link' target='_blank'>
+<span class='label'>Twitter</span>
+</ql-menu-item>
+
+<ql-menu-item data-analytics-action='Shared to Facebook.' data-analytics-category='Badge' data-analytics-label='Learn to Earn Cloud Security Challenge: Level 2' href='https://facebook.com/sharer.php?display=popup&amp;u=https%3A%2F%2Fwww.cloudskillsboost.google%2Fpublic_profiles%2Fa3fdcc02-a093-43a1-9712-49cf2057c8d9%2Fbadges%2F1689367%3Futm_medium%3Dsocial%26utm_source%3Dfacebook%26utm_campaign%3Dql-social-share' icon='post_facebook' label='Facebook' role='link' target='_blank'>
+<span class='label'>Facebook</span>
+</ql-menu-item>
+
+<ql-copyable-input label='Share Link' value='https://www.cloudskillsboost.google/public_profiles/a3fdcc02-a093-43a1-9712-49cf2057c8d9/badges/1689367'></ql-copyable-input>
+</ql-menu>
+
+</div>
+
+</div>
+</div>
+
+</main>
+
+</ql-drawer-content>
+</ql-drawer-container>
+
+<span class='hidden' id='flash-sibling-before'></span>
+<ql-snackbar></ql-snackbar>
+
+
+<ql-dialog dismissalLabel='Dismiss' headline='Google Cloud&#39;s Operations Suite' id='public-profile-award-modal-0'>
+<p>In this fundamental-level quest, you will learn the ins and outs of Google Cloud's operations suite, an important service for generating insights into the health of your applications. It provides a wealth of information in application monitoring, report logging, and diagnoses. The labs in this quest will give you hands-on practice with and will teach you how to monitor virtual machines, generate logs and alerts, and create custom metrics for application data. It is recommended that the students have at least earned a Badge by completing the Google Cloud Essentials Quest. Additional lab experience with the labs in the Baseline-Infrastructure Quest will also be useful. Looking for a hands on challenge lab to demonstrate your skills and validate your knowledge? On completing this quest, enroll in and finish the additional challenge lab at the end of the Monitor and Log with Google Cloud Operations Suite to receive an exclusive Google Cloud digital badge.</p>
+<ql-button href='/quests/35' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Deploy to Kubernetes in Google Cloud' id='public-profile-award-modal-1'>
+<p>Earn a skill badge by completing the Deploy to Kubernetes in Google Cloud quest, where you will learn about Google Kubernetes Engine and multiple deployment approaches including how to: configure and build images to run and debug Docker containers, build Kubernetes Engine clusters, and manage them with kubectl, deploy Kubernetes applications using deployments and continuous delivery techniques.   A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment. Complete this skill badge quest, and the final assessment challenge lab, to receive a skill badge that you can share with your network.</p>
+<ql-button href='/quests/116' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Build and Secure Networks in Google Cloud' id='public-profile-award-modal-2'>
+<p>Earn a skill badge by completing the Build and Secure Networks in Google Cloud quest, where you will learn about multiple networking-related resources to build, scale, and secure your applications on Google Cloud, including how to: Enable Identity-Aware Proxy, Create VPC networks, Create virtual machine instances with nginx web servers using Compute Engine, Create firewall rules to control internal and external access to your VMs, Configure, stress, and protect a multi-region HTTP application with an HTTP load balancer and Google Cloud Armor, Configure and test an internal TCP load balancer with a regional backend service.   A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment. Complete the skill badge quest, and final assessment challenge lab, to receive a digital badge that you can share with your network.</p>
+<ql-button href='/quests/128' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Google Cloud Solutions I: Scaling Your Infrastructure' id='public-profile-award-modal-3'>
+<p>In this advanced-level quest, you will learn how you to harness serious Google Cloud power and infrastructure. The hands-on labs will give you use cases and you will be tasked with implementing scaling practices utilized by Google’s very own Solutions Architecture team. From developing enterprise grade load balancing and autoscaling, to building continuous delivery pipelines, Google Cloud Solutions I: Scaling your Infrastructure will teach you best practices for taking your Google Cloud projects to the next level. </p>
+<ql-button href='/quests/36' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Cloud Architecture' id='public-profile-award-modal-4'>
+<p>This fundamental-level quest is unique amongst the other Qwiklabs offerings. The labs have been curated to give IT professionals hands-on practice with topics and services that appear in the Google Cloud Certified Professional Cloud Architect Certification. From IAM, to networking, to Kubernetes engine deployment, this quest is composed of specific labs that will put your Google Cloud knowledge to the test. Be aware that while practice with these labs will increase your skills and abilities, we recommend that you also review the exam guide and other available preparation resources.</p>
+<ql-button href='/quests/24' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Understanding Your Google Cloud Costs' id='public-profile-award-modal-5'>
+<p>This Quest is most suitable for those working in a technology or finance role who are responsible for managing Google Cloud costs. You’ll learn how to set up a billing account, organize resources, and manage billing access permissions. In the hands-on labs, you'll learn how to view your invoice, track your Google Cloud costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Looker Studio. References made to links in the videos can be accessed in this Additional Resources document.</p>
+<ql-button href='/quests/90' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='DevOps Essentials' id='public-profile-award-modal-6'>
+<p>Obtain a  competitive advantage through DevOps. DevOps is an organizational and cultural movement that aims to increase software delivery velocity, improve service reliability, and build shared ownership among software stakeholders. In this quest you will learn how to use Google Cloud to improve the speed, stability, availability, and security of your software delivery capability. DevOps Research and Assessment has joined Google Cloud. How does your team measure up? Take this five question multiple-choice quiz and find out! Looking for a hands on challenge lab to demonstrate your skills and validate your knowledge? On completing this quest, enroll in and finish the additional challenge lab at the end of this quest to receive an exclusive Google Cloud digital badge.</p>
+<ql-button href='/quests/96' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Set Up and Configure a Cloud Environment in Google Cloud' id='public-profile-award-modal-7'>
+<p>Earn a skill badge by completing the Set Up and Configure a Cloud Environment in Google Cloud quest, where you learn multiple ways to deploy and monitor applications including how to: explore IAM rols and add/remove project access, create VPC networks, deploy and monitor Compute Engine VMs, write SQL queries, deploy and monitor VMs in Compute Engine, and deploy applications using Kubernetes with multiple deployment approaches.   A skill badge is an exclusivedigital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment. Complete this skill badge quest, and the final assessment challenge lab, to receive a skill badge that you can share with your network.</p>
+<ql-button href='/quests/119' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Cloud Engineering' id='public-profile-award-modal-8'>
+<p>This fundamental-level quest is unique amongst the other Qwiklabs offerings. The labs have been curated to give IT professionals hands-on practice with topics and services that appear in the Google Cloud Certified Associate Cloud Engineer Certification. From IAM, to networking, to Kubernetes engine deployment, this quest is composed of specific labs that will put your Google Cloud knowledge to the test. Be aware that while practice with these labs will increase your skills and abilities, we recommend that you also review the exam guide and other available preparation resources.</p>
+<ql-button href='/quests/66' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Kubernetes in Google Cloud' id='public-profile-award-modal-9'>
+<p>Kubernetes is the most popular container orchestration system, and Google Kubernetes Engine was designed specifically to support managed Kubernetes deployments in Google Cloud. In this advanced-level quest, you will get hands-on practice configuring Docker images, containers, and deploying fully-fledged Kubernetes Engine applications. This quest will teach you the practical skills needed for integrating container orchestration into your own workflow. Looking for a hands-on challenge lab to demonstrate your skills and validate your knowledge? On completing this quest, finish the additional  Challenge Lab at the end of the  Deploy to Kubernetes in Google Cloud Quest to receive an exclusive Google Cloud digital badge. </p>
+<ql-button href='/quests/29' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Networking Fundamentals in Google Cloud ' id='public-profile-award-modal-10'>
+<p>Networking is a principle theme of cloud computing. It’s the underlying structure of Google Cloud, and it’s what connects all your resources and services to one another. This quest will cover essential Google Cloud networking services and will give you hands-on practice with specialized tools for developing mature networks. From learning the ins-and-outs of VPCs, to creating enterprise-grade load balancers, Networking Fundamentals in the Google Cloud will give you the practical experience needed so you can start building robust networks right away.</p>
+<ql-button href='/quests/31' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Perform Foundational Infrastructure Tasks in Google Cloud' id='public-profile-award-modal-11'>
+<p>Earn a skill badge by completing the Perform Foundational Infrastructure Tasks in Google Cloud quest, where you learn how to build and connect storage-centric cloud infrastructure using the basic capabilities of the of the following technologies: Cloud Storage, Identity and Access Management, Cloud Functions, and Pub/Sub.   A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment. Complete this skill badge quest, and the final assessment challenge lab, to receive a skill badge that you can share with your network.</p>
+<ql-button href='/quests/118' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Baseline: Infrastructure' id='public-profile-award-modal-12'>
+<p>If you are a novice cloud developer looking for hands-on practice beyond Google Cloud Essentials, this quest is for you. You will get practical experience through labs that dive into Cloud Storage and other key application services like Stackdriver and Cloud Functions. By taking this quest, you will develop valuable skills that are applicable to any Google Cloud initiative. 1-minute videos walk you through key concepts for these labs.</p>
+<ql-button href='/quests/33' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Create and Manage Cloud Resources' id='public-profile-award-modal-13'>
+<p>Earn a skill badge by completing the Create and Manage Cloud Resources quest, where you learn how to do the following: Write gcloud commands and use Cloud Shell, create and deploy virtual machines in Compute Engine, run containerized applications on Google Kubernetes Engine, and configure network and HTTP load balancers.   A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment. Complete this skill badge quest, and the final assessment challenge lab, to receive a skill badge that you can share with your network.</p>
+<ql-button href='/quests/120' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Google Cloud Essentials' id='public-profile-award-modal-14'>
+<p>In this introductory-level Quest, you will get hands-on practice with the Google Cloud’s fundamental tools and services. Google Cloud Essentials is the recommended first Quest for the Google Cloud learner - you will come in with little or no prior cloud knowledge, and come out with practical experience that you can apply to your first Google Cloud project. From writing Cloud Shell commands and deploying your first virtual machine, to running applications on Kubernetes Engine or with load balancing, Google Cloud Essentials is a prime introduction to the platform’s basic features. 1-minute videos walk you through key concepts for each lab.</p>
+<ql-button href='/quests/23' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='DevOps: A beautiful relationship' id='public-profile-award-modal-15'>
+<p>The goal of DevOps is to combine software development and IT operations into a holistic set of strategies and practices.  Want to learn more about how the relationship works? Join a team and challenge yourself to complete each task as quickly and accurately as possible to score points and earn badges.</p>
+<ql-button href='/games/836' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+<ql-dialog dismissalLabel='Dismiss' headline='Learn to Earn Cloud Security Challenge: Level 2' id='public-profile-award-modal-16'>
+<p>These labs will give you a deeper understanding of security features in the cloud. These labs are a little more challenging.  It’s OK to take a lab more than once to achieve a great score. Complete this game to earn the Level 2 game badge, and you'll be one step closer to completing the challenge.  Race the clock to increase your score and watch your name rise on the leaderboard!</p>
+<ql-button href='/games/822' label='Learn more' method='get' slot='action' text>
+Learn more
+</ql-button>
+</ql-dialog>
+
+
+
+<script>
+  $(function() {
+    ql.surveys.pageView();
+  });
+</script>
+<script>
+  $(function() {
+    ql.initMaterialInputs();
+    initChosen();
+    initSearch();
+    initTabs();
+    ql.list.init();
+    ql.favoriting.init();
+    ql.header.myAccount.init();
+    initTooltips();
+    ql.autocomplete.init();
+    ql.modals.init();
+    ql.toggleButtons.init();
+    ql.analytics.init();
+    ql.chat.init();
+  ql.jumpContent.init();
+  
+  });
+</script>
+
+</body>
+</html>
+
+

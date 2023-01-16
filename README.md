@@ -81,11 +81,9 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
 ![ Github Stats Graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sudhir878786&theme=radical&hide_border=true)
 
 
-  
-      
-
       
 [![Sudhir's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Sudhir878786&bg_color=000000&color=f31212&line=2208e7&point=00ff33&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
       
 

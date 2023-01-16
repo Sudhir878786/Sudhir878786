@@ -109,7 +109,13 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=work-experience&username=Sudhir878786&max-items=2&logos=true&style=--item-bg-color:%23f00;--item-border-radius:10px"
 />
  -->
+<!--  📊 &nbsp;**This week I spent my time on**
+
+![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=Sudhir878786&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777)
+<details>
  
+  <br/> -->
+
  
 
 

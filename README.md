@@ -10,6 +10,11 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
 <h3><p align="center"> <img src="https://komarev.com/ghpvc/?username=Sudhir878786&label=Profile%20views&color=6805D3&style=flat" alt="Sudhir878786" /> </p></h3>
    <div align="center">
 
+   
+<img
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Sudhir878786&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
+/>
+   
 <h1>Technical Skills 🛠</h1>
    
 Updating Soon.....
@@ -31,9 +36,9 @@ Updating Soon.....
  <img alt="VS Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
  
  </p>
- </p><h3 align="left">Languages and Tools:</h3>
+
   
-  <img src='http://cr-skills-chart-widget.azurewebsites.net/api/api?username=Sudhir878786&padding=30&skills=angular,batchfile,c,C%23,coffeescript,dart,go,html,json,java,javascript,less,mysql,php,pandas,perl,python,reactjs,scss,shell,svelte,swift,typescript,vue'>
+
   
  </a>
 
@@ -41,10 +46,9 @@ Updating Soon.....
   
 I believe in implementing the knowledge which I have. Projects play a major role in showcasing your skills. They help in predicting skills of a person. So let's have a look at my project section.
 
-<img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Sudhir878786&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
-/>
+ </p><h3 align="left">Languages and Tools:</h3>
 
+  <img src='http://cr-skills-chart-widget.azurewebsites.net/api/api?username=Sudhir878786&padding=30&skills=angular,batchfile,c,C%23,coffeescript,dart,go,html,json,java,javascript,less,mysql,php,pandas,perl,python,reactjs,scss,shell,svelte,swift,typescript,vue'>
 
 
 <!-- <details>

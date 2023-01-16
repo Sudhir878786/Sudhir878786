@@ -45,6 +45,19 @@ I believe in implementing the knowledge which I have. Projects play a major role
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Sudhir878786&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
 />
 
+
+
+<!-- <details>
+  <summary><b>📈&nbsp;&nbsp;Language&nbsp;/&nbsp;Framework stats</b></summary>
+  <br/>
+  <a href='https://profile.codersrank.io/user/Sudhir878786/'>
+ <img
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=education&username=Sudhir878786&max-items=3&certificates=true&style=--item-bg-color:%23f00;--item-border-radius:10px"
+/>
+  </a>
+
+</details> -->
+
 <h1 align="center">Let's Get Connected</h1> 
 
 Follow if you liked my respositories and I'll make sure to visit yours :)
@@ -85,9 +98,14 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
 [![Sudhir's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Sudhir878786&bg_color=000000&color=f31212&line=2208e7&point=00ff33&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
+
       
-
-
+<!--       
+<img
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=work-experience&username=Sudhir878786&max-items=2&logos=true&style=--item-bg-color:%23f00;--item-border-radius:10px"
+/>
+ -->
+ 
  
 
 

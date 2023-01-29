@@ -83,7 +83,7 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
 </table>
 <b>&#128200; Competitive Programming</b>
 <p float="left">
-<img height="280em" src="https://leetcard.jacoblin.cool/sudhir_sharma?theme=light&font=Karma&ext=contest" />
+<img height="280em" src="https://leetcard.jacoblin.cool/you_r_mine?theme=light&font=Karma&ext=contest" />
 </p>
 
 <div align="center">

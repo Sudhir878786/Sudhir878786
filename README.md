@@ -87,6 +87,8 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
 <p float="left">
 <img height="280em" src="https://leetcard.jacoblin.cool/you_r_mine?theme=light&font=Karma&ext=contest" />
 </p>
+   
+[![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=sudhir___)](https://codeforces.com/profile/sudhir___)
 
 <div align="center">
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786&theme=dark" alt="Sudhir878786" /></p>

@@ -17,6 +17,18 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Sudhir878786&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
 />
    
+ ## 📈 Coding Profiles
+
+<span>
+<a href="https://codeforces.com/profile/sudhir___">
+<img height="316" src="https://codeforces-readme-stats.vercel.app/api/card?username=sudhir___&theme=github_dark&force_username=true&border_color=404040" alt="redheadphone Codeforces Stats"/>
+</a>
+<a href="https://leetcode.com/you_r_mine">
+<img height="316" src="https://leetcard.jacoblin.cool/you_r_mine?theme=dark&font=Ubuntu&cache=14400&ext=contest&sheets=https://gist.githubusercontent.com/RedHeadphone/5e715e284c89cace8f5fa09f7fb930b8/raw/ec0be570f114124b1a2156a660d67baa0ab5639d/leetcode_stats_card.css" alt="RedHeadphone Leetcode Stats"/>
+</a>
+</span>
+   
+   
 <h1>Technical Skills 🛠</h1>
    
 Updating Soon.....
@@ -83,13 +95,9 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
     <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhir878786&show_icons=true&theme=dark&locale=en&layout=compact" alt="Sudhir Sharma" /></td>
   </tr>
 </table>
-<b>&#128200; Competitive Programming</b>
-<p float="left">
-<img height="280em" src="https://leetcard.jacoblin.cool/you_r_mine?theme=light&font=Karma&ext=contest" />
-</p>
-   
-[![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=sudhir___)](https://codeforces.com/profile/sudhir___)
 
+   
+   
 <div align="center">
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786&theme=dark" alt="Sudhir878786" /></p>
   </div>

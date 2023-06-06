@@ -12,10 +12,7 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
    
    
 
-   
-<img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Sudhir878786&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
-/>
+
    
  ## 📈 Coding Profiles
 

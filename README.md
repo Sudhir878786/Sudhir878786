@@ -17,9 +17,7 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
  ## 📈 Coding Profiles
 
 <span>
-<a href="https://codeforces.com/profile/sudhir___">
-<img height="316" src="https://codeforces-readme-stats.vercel.app/api/card?username=sudhir___&theme=github_dark&force_username=true&border_color=404040" alt="redheadphone Codeforces Stats"/>
-</a>
+
 <!-- <a href="https://leetcode.com/you_r_mine">
 
 

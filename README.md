@@ -14,16 +14,8 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
 
 
    
- ## 📈 Coding Profiles
-
-<span>
-
-<!-- <a href="https://leetcode.com/you_r_mine">
 
 
-<img height="316" src="https://leetcard.jacoblin.cool/you_r_mine?theme=light&font=Karma&ext=contest" />
-</a> -->
-<a href="https://leetcode.com/job_finder">
 
 
 <img height="316" src="https://leetcard.jacoblin.cool/job_finder?theme=light&font=Karma&ext=contest" />

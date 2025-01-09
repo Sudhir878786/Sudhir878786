@@ -49,9 +49,6 @@ Updating Soon.....
   
 I believe in implementing the knowledge which I have. Projects play a major role in showcasing your skills. They help in predicting skills of a person. So let's have a look at my project section.
 
- </p><h3 align="left">Languages and Tools:</h3>
-
-  <img src='http://cr-skills-chart-widget.azurewebsites.net/api/api?username=Sudhir878786&padding=30&skills=angular,batchfile,c,C%23,coffeescript,dart,go,html,json,java,javascript,less,mysql,php,pandas,perl,python,reactjs,scss,shell,svelte,swift,typescript,vue'>
 
 
 <!-- <details>
@@ -100,7 +97,10 @@ Follow if you liked my respositories and I'll make sure to visit yours :)
 
 [![Sudhir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sudhir878786&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/Sudhir878786/github-readme-activity-graph)
 
-      
+
+
+  <img src='http://cr-skills-chart-widget.azurewebsites.net/api/api?username=Sudhir878786&padding=30&skills=angular,batchfile,c,C%23,coffeescript,dart,go,html,json,java,javascript,less,mysql,php,pandas,perl,python,reactjs,scss,shell,svelte,swift,typescript,vue'>
+
 <!--       
 <img
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=work-experience&username=Sudhir878786&max-items=2&logos=true&style=--item-bg-color:%23f00;--item-border-radius:10px"

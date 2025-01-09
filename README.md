@@ -16,11 +16,6 @@ A bit about Myself, I am <b>Sudhir Sharma</b> pursuing my <b>Btech Degree</b> fr
    
 
 
-
-
-<img height="316" src="https://leetcard.jacoblin.cool/job_finder?theme=light&font=Karma&ext=contest" />
-</a>
-</span>
    
    
 <h1>Technical Skills 🛠</h1>

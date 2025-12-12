@@ -67,39 +67,13 @@ I believe in implementing the knowledge which I have. Projects play a major role
 Follow if you liked my respositories and I'll make sure to visit yours :)
 
 
-<div align="center">
 
-<a  href="https://www.linkedin.com/in/sudhir_sharma87/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/SudhirS33090712" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
-<a href="mailto:sudhirsharma@iitbhilai.ac.in"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-
-</div>
-
-<table>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=Sudhir878786&show_icons=true&theme=dark&locale=en" alt="Sudhir Sharma" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhir878786&show_icons=true&theme=dark&locale=en&layout=compact" alt="Sudhir Sharma" /></td>
-  </tr>
-</table>
-
-   
-   
-<div align="center">
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhir878786&theme=dark" alt="Sudhir878786" /></p>
-  </div>
-  
- [![trophy](https://github-profile-trophy.vercel.app/?username=Sudhir878786&theme=onedark)](https://github.com/Sudhir878786/github-profile-trophy)
-   <h1 align="center" ><a href="https://holopin.io/@sudhir878786" target="_blank">Hacktober Fest 2K22</a><img>
-                                                                                                                   
 [![@sudhir878786's Holopin board](https://holopin.io/api/user/board?user=sudhir878786)](https://holopin.io/@sudhir878786)
 
 ![ Github Stats Graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sudhir878786&theme=radical&hide_border=true)
 
 [![Sudhir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sudhir878786&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/Sudhir878786/github-readme-activity-graph)
 
-
-
-  <img src='http://cr-skills-chart-widget.azurewebsites.net/api/api?username=Sudhir878786&padding=30&skills=angular,batchfile,c,C%23,coffeescript,dart,go,html,json,java,javascript,less,mysql,php,pandas,perl,python,reactjs,scss,shell,svelte,swift,typescript,vue'>
 
 <!--       
 <img
